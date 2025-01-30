@@ -1,0 +1,14 @@
+@media (min-width: 992px) {
+    .largura-pc {
+        width: 60%; /* Ajuste o valor conforme necessário */
+    }
+}
+.navbar-nav {
+    margin-right: 1rem !important; /* Ajuste o valor conforme necessário */
+}
+.p-3{
+    background-color: #537A72;
+}
+.bi{
+    padding-right: 5px;
+}
