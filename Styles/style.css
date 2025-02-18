@@ -107,3 +107,7 @@ button:hover {
     border-radius: 10px; /* Bordas arredondadas */
     max-width: 100%; /* Garantir que a imagem não exceda o tamanho do contêiner */
 }
+
+.sobrenos{
+    background-color: white;
+}
