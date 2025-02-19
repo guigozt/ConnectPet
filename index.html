@@ -15,7 +15,7 @@
 <body class="p-3 m-0 border-0 bd-example m-0 border-0">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Connect Pet</a>
+            <a class="navbar-brand" href="#"><strong>CONNECT PET</strong></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -41,7 +41,7 @@
                 <!-- Barra de pesquisa com ícone de lupa -->
                 <form class="d-flex ms-lg-auto largura-pc" role="search">
                     <input class="form-control me-2" type="search" placeholder="O que o seu pet precisa?" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">
+                    <button class="btn btn-outline-success btn-pesquisa" type="submit">
                         <i class="bi bi-search"></i>
                     </button>
                 </form>
@@ -64,7 +64,7 @@
     
             <div class="coluna2">
                 <p>Com o nosso produto, o SmartPet você pode cuidar ainda mais do seu pet e acompanhar todo sobre sua saúde, dicas e localização com um só clique.</p>
-                <button>Saiba Mais</button>
+                <button class="btn-saiba-mais">Saiba Mais</button>
             </div>
         </div>
     </div>
@@ -74,11 +74,11 @@
     <div class="sobrenos">
         <div class="row">
             <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
-                <h1>Sobre nós</h1>
+                <h1><strong>SOBRE NÓS</strong></h1>
                 <p class="text-center">A ConnectPet nasceu com o objetivo de trazer soluções inovadoras para o mercado Pet. Foi criada em 2024 como uma startup fundada por seis jovens de São Paulo que acreditam que os animais merecem uma atenção maior.</p>
                 <p class="text-center">Curtiu a nossa história e quer saber mais? Clique no botão abaixo:</p>
 
-                <button type="submit">
+                <button class="btn-sobre-nos" type="submit">
                     Saiba mais
                 </button>
             </div>
@@ -88,7 +88,55 @@
                 <img src="https://st2.depositphotos.com/1032808/6606/i/450/depositphotos_66066065-stock-photo-puppy-and-kitten.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Imagem do produto">
             </div>
         </div>
-    </div>    
+    </div>   
+
+    <div class="space"></div>
+
+    <div class="oferecimentos">
+        <h1 style="color: white;"><strong>O QUE OFERECEMOS</strong></h1>
+    
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <!-- Primeiro slide com imagem -->
+                <div class="carousel-item active">
+                    <img src="https://cdn.esbrasil.com.br/wp-content/uploads/2023/06/celular.jpg" class="d-block w-100" alt="Visualização de dados">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Visualização de dados</h5>
+                        <p>Nosso App organiza os dados sobre o seu pet e conta com atualizações em tempo real.</p>
+                    </div>
+                </div>
+                <!-- Segundo slide com imagem -->
+                <div class="carousel-item">
+                    <img src="https://static.vecteezy.com/ti/fotos-gratis/t1/55177367-gentil-conexao-entre-humano-e-animal-mulher-segurando-cachorro-pata-dentro-natureza-internacional-mulheres-dia-foto.jpeg" class="d-block w-100" alt="Alertas">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Alertas</h5>
+                        <p>Saiba quando algo não está bem, e tenha dicas de como cuidar do seu pet da melhor maneira.</p>
+                    </div>
+                </div>
+                <!-- Terceiro slide com imagem -->
+                <div class="carousel-item">
+                    <img src="https://portaledicase.com/wp-content/uploads/2022/07/shutterstock_2064560525.jpg" class="d-block w-100" alt="Localização">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Localização</h5>
+                        <p>Nosso App conta com a localização do seu pet em tempo real.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev btn-carousel-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next btn-carousel-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
     
 </body>
 </html>
